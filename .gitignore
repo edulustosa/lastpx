@@ -1,0 +1,19 @@
+# Go
+bin/
+*.test
+*.out
+coverage.*
+
+# FIX session state (quickfix file store)
+fixstore/
+fixlog/
+
+# env
+.env
+.env.*
+!.env.example
+
+# editors / OS
+.idea/
+.vscode/
+.DS_Store
